@@ -11,6 +11,7 @@ Custom LayoutAnimationController
   
   - **{@link android.view.ViewGroup#setLayoutAnimation(LayoutAnimationController)}**
 - 2.2：1行代码直接搞定
+
   - **{@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, int, float, ILayoutAnimationController.IndexAlgorithm)}
     或
     {@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, Animation, float, ILayoutAnimationController.IndexAlgorithm)}**
@@ -20,6 +21,7 @@ Custom LayoutAnimationController
 LinearLayout ll = (LinearLayout) findViewById(R.id.ll);
 ILayoutAnimationController.setLayoutAnimation(ll,R.anim.activity_open_enter,0.8f,ILayoutAnimationController.IndexAlgorithm.INDEXSIMPLEPENDULUM);
 
+方法setLayoutAnimation中各参数介绍：
 /**
  * 根据传入的动画资源ID、单个子View动画延时、子View动画执行顺序算法枚举值 创建一个新的CustomLayoutAnimationController实例，
  * 将此实例作为参数为viewGroup设置布局动画
@@ -33,6 +35,9 @@ public static void setLayoutAnimation(@NonNull ViewGroup viewGroup,@AnimRes int 
     setLayoutAnimation(viewGroup,animation,delay,indexAlgorithm);
 }
 ```
+
+### 注意：
+- *使用ILayoutAnimationController获取的ILayoutAnimationController实例，调用setOrder(int order)方法无效！*
 
 ### 开发者：
 - **幻海流心**  
