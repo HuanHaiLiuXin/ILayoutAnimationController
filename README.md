@@ -5,19 +5,22 @@ Custom LayoutAnimationController
 &emsp;&emsp;![](https://github.com/HuanHaiLiuXin/ILayoutAnimationController/blob/master/Screenshots/ILayoutAnimationController%E5%BD%95%E5%B1%8F.gif)   
 
 ### 使用方法：
-- 2.1：首先创建ILayoutAnimationController实例，然后将此实例作为参数为ViewGroup设置布局动画
-
-  - **{@link ILayoutAnimationController#generateController(Animation, float, ILayoutAnimationController.IndexAlgorithm)}**
-  
-  - **{@link android.view.ViewGroup#setLayoutAnimation(LayoutAnimationController)}**
-- 2.2：1行代码直接搞定
-  - **{@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, int, float, ILayoutAnimationController.IndexAlgorithm)}**
-    或
-    **{@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, Animation, float,      ILayoutAnimationController.IndexAlgorithm)}**
+######方法一：首先创建ILayoutAnimationController实例，然后将此实例作为参数为ViewGroup设置布局动画
+**1：{@link ILayoutAnimationController#generateController(Animation, float, ILayoutAnimationController.IndexAlgorithm)}**
+**2：{@link android.view.ViewGroup#setLayoutAnimation(LayoutAnimationController)}**
+######方法二：1行代码直接搞定
+**{@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, int, float, ILayoutAnimationController.IndexAlgorithm)}**
+**或**
+**{@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, Animation, float,ILayoutAnimationController.IndexAlgorithm)}**
 
 ### 示例代码：
 ```
 LinearLayout ll = (LinearLayout) findViewById(R.id.ll);
+//两行代码设置布局动画：
+ILayoutAnimationController controller = ILayoutAnimationController.generateController(AnimationUtils.loadAnimation(this,R.anim.activity_open_enter),0.8f,ILayoutAnimationController.IndexAlgorithm.INDEXSIMPLEPENDULUM);
+ll.setLayoutAnimation(controller);
+
+//一行代码直接搞定：
 ILayoutAnimationController.setLayoutAnimation(ll,R.anim.activity_open_enter,0.8f,ILayoutAnimationController.IndexAlgorithm.INDEXSIMPLEPENDULUM);
 
 方法setLayoutAnimation中各参数介绍：
