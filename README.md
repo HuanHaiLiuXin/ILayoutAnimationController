@@ -10,8 +10,8 @@ Custom LayoutAnimationController
   - **{@link ILayoutAnimationController#generateController(Animation, float, ILayoutAnimationController.IndexAlgorithm)}**
   
   - **{@link android.view.ViewGroup#setLayoutAnimation(LayoutAnimationController)}**
-- 2.2：1行代码直接搞定
 
+- 2.2：1行代码直接搞定
   - **{@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, int, float, ILayoutAnimationController.IndexAlgorithm)}
     或
     {@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, Animation, float, ILayoutAnimationController.IndexAlgorithm)}**
