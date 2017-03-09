@@ -9,7 +9,8 @@ Custom LayoutAnimationController
 
 - 1：{@link ILayoutAnimationController#generateController(Animation, float, ILayoutAnimationController.IndexAlgorithm)}
 
-- 2：{@link android.view.ViewGroup#setLayoutAnimation(LayoutAnimationController)}**
+- 2：{@link android.view.ViewGroup#setLayoutAnimation(LayoutAnimationController)}
+
 ######方法二：1行代码直接搞定,以下两种方法任选
 
 - {@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, int, float, ILayoutAnimationController.IndexAlgorithm)}
