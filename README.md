@@ -6,15 +6,14 @@ Custom LayoutAnimationController
 
 ### 使用方法：
 - 2.1：首先创建ILayoutAnimationController实例，然后将此实例作为参数为ViewGroup设置布局动画
-  
-  - **{@link ILayoutAnimationController#generateController(Animation, float, ILayoutAnimationController.IndexAlgorithm)}**
-  
-  - **{@link android.view.ViewGroup#setLayoutAnimation(LayoutAnimationController)}**
 
+  - **{@link ILayoutAnimationController#generateController(Animation, float, ILayoutAnimationController.IndexAlgorithm)}**
+  
+  - **{@link android.view.ViewGroup#setLayoutAnimation(LayoutAnimationController)}**
 - 2.2：1行代码直接搞定
-  - **{@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, int, float, ILayoutAnimationController.IndexAlgorithm)}
+  - **{@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, int, float, ILayoutAnimationController.IndexAlgorithm)}**
     或
-    {@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, Animation, float, ILayoutAnimationController.IndexAlgorithm)}**
+    **{@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, Animation, float,      ILayoutAnimationController.IndexAlgorithm)}**
 
 ### 示例代码：
 ```
