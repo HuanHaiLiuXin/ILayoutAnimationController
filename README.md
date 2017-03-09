@@ -1,5 +1,5 @@
 # ILayoutAnimationController
-Custom LayoutAnimationController
+自定义LayoutAnimationController，可任意定制ViewGroup实例内部子View的动画执行顺序，1行代码就让你的ViewGroup拥有华丽的布局动画！
 ***
 ### 截屏GIF：
 &emsp;&emsp;![](https://github.com/HuanHaiLiuXin/ILayoutAnimationController/blob/master/Screenshots/ILayoutAnimationController%E5%BD%95%E5%B1%8F.gif)   
