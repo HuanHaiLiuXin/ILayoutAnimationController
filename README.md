@@ -1,6 +1,7 @@
 # ILayoutAnimationController
-  自定义LayoutAnimationController，可任意定制ViewGroup实例内部子View的动画执行顺序，1行代码就让你的ViewGroup拥有华丽的布局动画！   
-  &emsp;&emsp;[**Android开源之ILayoutAnimationController，1行代码让你的ViewGroup拥有华丽的布局动画！**](http://www.jianshu.com/p/f0e563a564f5)
+&emsp;&emsp;自定义LayoutAnimationController，可任意定制ViewGroup实例内部子View的动画执行顺序，1行代码就让你的ViewGroup拥有华丽的布局动画！ 
+
+&emsp;&emsp;[**Android开源之ILayoutAnimationController，1行代码让你的ViewGroup拥有华丽的布局动画！**](http://www.jianshu.com/p/f0e563a564f5)
 ***
 
 
