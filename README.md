@@ -48,8 +48,8 @@ public static void setLayoutAnimation(@NonNull ViewGroup viewGroup,@AnimRes int 
 ### 注意：
 - *使用ILayoutAnimationController获取的ILayoutAnimationController实例，调用setOrder(int order)方法无效！*
 
-### 开发者：
-- **幻海流心**  
-- **Email:** wall0920@163.com  
-- **简书:** http://www.jianshu.com/users/5702e6847f31/latest_articles  
-- **GitHub:** https://github.com/HuanHaiLiuXin
+### 开发者:
+&emsp;&emsp;**幻海流心**  
+&emsp;&emsp;**Email:** wall0920@163.com  
+&emsp;&emsp;**简书:** http://www.jianshu.com/users/5702e6847f31/latest_articles   
+&emsp;&emsp;**GitHub:** https://github.com/HuanHaiLiuXin  
