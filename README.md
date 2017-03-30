@@ -50,6 +50,6 @@ public static void setLayoutAnimation(@NonNull ViewGroup viewGroup,@AnimRes int 
 
 ### 开发者：
 - **幻海流心**  
-- **Email:**wall0920@163.com  
-- **简书:**http://www.jianshu.com/users/5702e6847f31/latest_articles  
-- **GitHub:**https://github.com/HuanHaiLiuXin
+- **Email:** wall0920@163.com  
+- **简书:** http://www.jianshu.com/users/5702e6847f31/latest_articles  
+- **GitHub:** https://github.com/HuanHaiLiuXin
