@@ -8,13 +8,13 @@
 &emsp;&emsp;![](https://github.com/HuanHaiLiuXin/ILayoutAnimationController/blob/master/Screenshots/ILayoutAnimationController%E5%BD%95%E5%B1%8F.gif)   
 
 ### 使用方法：
-######方法一：首先创建ILayoutAnimationController实例，然后将此实例作为参数为ViewGroup设置布局动画
+###### 方法一：首先创建ILayoutAnimationController实例，然后将此实例作为参数为ViewGroup设置布局动画
 
 - 1：{@link ILayoutAnimationController#generateController(Animation, float, ILayoutAnimationController.IndexAlgorithm)}
 
 - 2：{@link android.view.ViewGroup#setLayoutAnimation(LayoutAnimationController)}
 
-######方法二：1行代码直接搞定,以下两种方法任选
+###### 方法二：1行代码直接搞定,以下两种方法任选
 
 - {@link ILayoutAnimationController#setLayoutAnimation(ViewGroup, int, float, ILayoutAnimationController.IndexAlgorithm)}
 
